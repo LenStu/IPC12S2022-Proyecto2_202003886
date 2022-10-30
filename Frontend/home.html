@@ -16,13 +16,44 @@
 </head>
 
 <body>
-    <h1>BIENVENIDO</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+                <h3>
+                    Bienvenido al album 2022
+                </h3>
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+                <h3>
+                    Buscador:
+                </h3>
+                <input id="Usuario_ini" class="form-control form-control-lg" />
 
-    <div id="titulo"></div>
+                <div id="titulo"></div>
 
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option value="1">Nombre</option>
+                        <option value="2">Region</option>
+                        <option value="3">Seleccion</option>
+                    </select>
+                    <label for="floatingSelect">Tipo de busqueda:</label>
+                </div>
 
-    <button type="button" class="btn btn-primary" id="btnBuscar">Buscar</button>
-    <div id="cards"></div>
+                <button type="button" class="btn btn-primary" id="btnBuscar">Buscar</button>
+                <div id="cards"></div>
+            </div>
+        </div>
+    </div>
+
 </body>
 <script src="JS/.Album_p.js"></script>
 
