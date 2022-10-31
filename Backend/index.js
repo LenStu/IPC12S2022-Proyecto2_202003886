@@ -22,11 +22,10 @@ app.post("/login", (req, res) => {
             retorno=true;
             break;
         }
-    }
-    
+    }    
 
     retorno1 = {
-        "res": retorno
+        "respuesta": retorno
     }
     res.send(retorno1);
 });
@@ -42,18 +41,14 @@ app.post("/busqueda", (req, res) => {
     var Listado = require("./jugador.json");
     var tipoBusqueda = req.body.tipo;
     var parametro = req.body.parametro;
-    var retorno = []
+    var retorno = [];
 
-    if (tipoBusqueda == 1) {
-        for (let i = 0; i < Listado.length; i++) {
-            if (Listado[i].pais == parametro) {
-                retorno.push(Listado[i])
-            }
-        }
+    if (tipoBusqueda == 0){
+        retorno.push(Listado)
     }
-    else if (tipoBusqueda == 2) {
+    else if (tipoBusqueda == 1) {
         for (let i = 0; i < Listado.length; i++) {
-            if (Listado[i].region == parametro) {
+            if (Listado[i].Seleccion == parametro) {
                 retorno.push(Listado[i])
             }
         }
@@ -61,16 +56,23 @@ app.post("/busqueda", (req, res) => {
             colorDefault = colores[parametro]
         }
     }
+    else if (tipoBusqueda == 2) {
+        for (let i = 0; i < Listado.length; i++) {
+            if (Listado[i].Región == parametro) {
+                retorno.push(Listado[i])
+            }
+        }        
+    }
     else {
         for (let i = 0; i < Listado.length; i++) {
-            if (Listado[i].nombre == parametro) {
+            if (Listado[i].Nombre == parametro) {
                 retorno.push(Listado[i])
             }
         }
     }
 
     retorno2 = {
-        "jugadores": retorno,
+        "informacion_album": retorno,
         "color": colorDefault
     }
     res.send(retorno2);
@@ -79,3 +81,4 @@ app.post("/busqueda", (req, res) => {
 app.listen(app.get('port'),()=>{
     console.log('Servidor iniciado en el puerto: '+app.get('port'));
 });
+
