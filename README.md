@@ -36,7 +36,7 @@ Puede escoger entre tres tipos diferente de busqueda y una opcion para mostrarlo
 
 | Datos| |
 | ------ | ------ |
-| Modulo | Lennin Stuardo Moscoso Martir |
+| Modulo | Loggin/Buscador |
 |Puerto utilizado  | 4000 |
 
 | Requisitos del sistema | |
