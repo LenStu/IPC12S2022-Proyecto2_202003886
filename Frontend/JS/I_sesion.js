@@ -1,52 +1,44 @@
-var btn = document.getElementById('Inicio_sesion');
+const { response } = require("express");
 
-// funcion para js
-btn.addEventListener('click', async function saludar2() {
+var btn = document.getElementById('Ingreso_user');
+
+function iniciando() {
+
     let url = 'http://localhost:4000/login';
 
-    var text1 = document.getElementById('usuario').value;
-    var text2 = document.getElementById('password').value;
+    var text1 = document.getElementById('Usuario_ini').value;
+    var text2 = document.getElementById('Contra_ini').value;
 
-    var usuario = '';
-    var password = '';
+    var Usuario = '';
+    var Password = '';
 
-    // primer paso creqr un json con la infrmacion que necesite mi backend
     var data = {
-        usuario: text1,
-        password: text2
+        Usuario: text1,
+        Password: text2
     }
 
     console.log(data);
-    // hacer la consulta a mi api con la informacion
-    const respuesta = await fetch(url, {
-        method: 'POST', // or 'PUT'
-        body: JSON.stringify(data), // data can be `string` or {object}!
+
+    fetch(url, {
+        method: 'POST',
+        body: JSON.stringify(data),
         headers: {
+            'Access-Control-Allow-Origin': '*',
             'Content-Type': 'application/json'
-        }
-    })
+        }}
+    )
         .then((res) => res.json())
-        .then((data) => {
-            //console.log(data[0]);
-            //usuario = data[0].usuario;
-            //password = data[0].password;        
-            return data
+        .catch(err => {
+            alert("ocurrio un error")
+        })
+        .then(response => {
+            if (Boolean(response.respuesta)) {
+                sessionStorage.setItem('USER',text1)
+                location.href = "home.html";
+            }
+            else {
+                alert("credenciales incorrectas")
+            }
         })
 
-    // recolectar mi informacion
-     console.log(respuesta);
-
-    usuario = respuesta[0].usuario;
-    password = respuesta[0].password;
-
-    //verificar si la informacion
-    console.log(respuesta[0]);
-
-    // para guardar informacion
-    // colocar un if para ver si existe el usario puede pasar el text1
-    localStorage.setItem("nombre", text1);
-
-    // ENVIARME A OTRA PAGINA
-    location.href = "Inicio.html";
-
-});
+}

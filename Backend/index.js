@@ -44,7 +44,7 @@ app.post("/busqueda", (req, res) => {
     var retorno = [];
 
     if (tipoBusqueda == 0){
-        retorno.push(Listado)
+        retorno=Listado
     }
     else if (tipoBusqueda == 1) {
         for (let i = 0; i < Listado.length; i++) {
@@ -58,7 +58,7 @@ app.post("/busqueda", (req, res) => {
     }
     else if (tipoBusqueda == 2) {
         for (let i = 0; i < Listado.length; i++) {
-            if (Listado[i].Región == parametro) {
+            if (Listado[i].Region == parametro) {
                 retorno.push(Listado[i])
             }
         }        

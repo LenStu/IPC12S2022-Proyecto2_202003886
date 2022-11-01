@@ -1,173 +1,173 @@
 [
     {
-        "Número": "1",
+        "Numero": "1",
         "Nombre": "Lionel Andrés",
         "Apellido": "Messi Cuccittini",
         "Seleccion": "Argentina",
-        "Región": "Sudamerica",
+        "Region": "Sudamerica",
         "Imagen": "https://cdn.sofifa.net/players/158/023/23_120.png"
     },
     {
-        "Número": "2",
+        "Numero": "2",
         "Nombre": "Lautaro Javier",
         "Apellido": "Martínez",
         "Seleccion": "Argentina",
-        "Región": "Sudamerica",
+        "Region": "Sudamerica",
         "Imagen": "https://cdn.sofifa.net/players/231/478/23_120.png"
     },
     {
-        "Número": "3",
+        "Numero": "3",
         "Nombre": "Paulo Bruno Exequiel",
         "Apellido": "Dybala",
         "Seleccion": "Argentina",
-        "Región": "Sudamerica",
+        "Region": "Sudamerica",
         "Imagen": "https://cdn.sofifa.net/players/211/110/23_120.png"
     },
     {
-        "Número": "4",
+        "Numero": "4",
         "Nombre": "Marcos Javier",
         "Apellido": "Acuña",
         "Seleccion": "Argentina",
-        "Región": "Sudamerica",
+        "Region": "Sudamerica",
         "Imagen": "https://cdn.sofifa.net/players/224/334/23_120.png"
     },
     {
-        "Número": "5",
+        "Numero": "5",
         "Nombre": "Damián Emiliano",
         "Apellido": "Martínez",
         "Seleccion": "Argentina",
-        "Región": "Sudamerica",
+        "Region": "Sudamerica",
         "Imagen": "https://cdn.sofifa.net/players/202/811/23_120.png"
     },
 
 
 
     {
-        "Número": "6",
+        "Numero": "6",
         "Nombre": "Sergio",
         "Apellido": "Busquets i Burgos",
         "Seleccion": "Espana",
-        "Región": "Europa",
+        "Region": "Europa",
         "Imagen": "https://cdn.sofifa.net/players/189/511/23_120.png"
     },
     {
-        "Número": "7",
+        "Numero": "7",
         "Nombre": "Jordi",
         "Apellido": "Alba Ramos",
         "Seleccion": "Espana",
-        "Región": "Europa",
+        "Region": "Europa",
         "Imagen": "https://cdn.sofifa.net/players/189/332/23_120.png"
     },
     {
-        "Número": "8",
+        "Numero": "8",
         "Nombre": "Sergio",
         "Apellido": "Ramos García",
         "Seleccion": "Espana",
-        "Región": "Europa",
+        "Region": "Europa",
         "Imagen": "https://cdn.sofifa.net/players/155/862/23_120.png"
     },
     {
-        "Número": "9",
+        "Numero": "9",
         "Nombre": "David Josué",
         "Apellido": "Jiménez Silva",
         "Seleccion": "Espana",
-        "Región": "Europa",
+        "Region": "Europa",
         "Imagen": "https://cdn.sofifa.net/players/168/542/23_120.png"
     },
     {
-        "Número": "10",
+        "Numero": "10",
         "Nombre": "Gerard",
         "Apellido": "Piqué Bernabéu",
         "Seleccion": "Espana",
-        "Región": "Europa",
+        "Region": "Europa",
         "Imagen": "https://cdn.sofifa.net/players/152/729/23_120.png"
     },
 
 
 
     {
-        "Número": "11",
+        "Numero": "11",
         "Nombre": "Akram Hassan",
         "Apellido": "Afif",
         "Seleccion": "Catar",
-        "Región": "Asia",
+        "Region": "Asia",
         "Imagen": "https://cdn.sofifa.net/players/234/051/23_120.png"
     },
     {
-        "Número": "12",
+        "Numero": "12",
         "Nombre": "Hassan Al",
         "Apellido": "Haydos",
         "Seleccion": "Catar",
-        "Región": "Asia",
+        "Region": "Asia",
         "Imagen": "https://cdn.sofifa.net/players/180/561/23_120.png"
     },
     {
-        "Número": "13",
+        "Numero": "13",
         "Nombre": "Karim",
         "Apellido": "Boudiaf",
         "Seleccion": "Catar",
-        "Región": "Asia",
+        "Region": "Asia",
         "Imagen": "https://cdn.sofifa.net/players/268/778/23_120.png"
     },
     {
-        "Número": "14",
+        "Numero": "14",
         "Nombre": "Almoez",
         "Apellido": "Ali",
         "Seleccion": "Catar",
-        "Región": "Asia",
+        "Region": "Asia",
         "Imagen": "https://cdn.sofifa.net/players/268/772/23_120.png"
     },
     {
-        "Número": "15",
+        "Numero": "15",
         "Nombre": "Abdulaziz",
         "Apellido": "Hatem",
         "Seleccion": "Catar",
-        "Región": "Asia",
+        "Region": "Asia",
         "Imagen": "https://cdn.sofifa.net/players/215/911/23_120.png"
     },
 
 
 
     {
-        "Número": "16",
+        "Numero": "16",
         "Nombre": "Onyinye Wilfred",
         "Apellido": "Ndidi",
         "Seleccion": "Nigeria",
-        "Región": "Africa",
+        "Region": "Africa",
         "Imagen": "https://cdn.sofifa.net/players/226/790/23_120.png"
     },
 {
-        "Número": "17",
+        "Numero": "17",
         "Nombre": "Victor James",
         "Apellido": "Osimhen",
         "Seleccion": "Nigeria",
-        "Región": "Africa",
+        "Region": "Africa",
         "Imagen": "https://cdn.sofifa.net/players/232/293/23_120.png"
     },
     {
-        "Número": "18",
+        "Numero": "18",
         "Nombre": "Sam",
         "Apellido": "Obisanya",
         "Seleccion": "Nigeria",
-        "Región": "Africa",
+        "Region": "Africa",
         "Imagen": "https://cdn.sofifa.net/players/269/765/23_120.png"
     },
 
     {
-        "Número": "19",
+        "Numero": "19",
         "Nombre": "Samuel Chimerenka",
         "Apellido": "Chukwueze",
         "Seleccion": "Nigeria",
-        "Región": "Africa",
+        "Region": "Africa",
         "Imagen": "https://cdn.sofifa.net/players/246/172/23_120.png"
     },
 
     {
-        "Número": "20",
+        "Numero": "20",
         "Nombre": "Paul Ebere",
         "Apellido": "Onuachu",
         "Seleccion": "Nigeria",
-        "Región": "Africa",
+        "Region": "Africa",
         "Imagen": "https://cdn.sofifa.net/players/212/382/23_120.png"
     }
 

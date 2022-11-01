@@ -20,10 +20,8 @@
         <div class="row">
             <div class="col-md-1">
             </div>
-            <div class="col-md-10">
-                <h3>
-                    Bienvenido al album 2022
-                </h3>
+            <div class="col-md-10" id="titulo">
+                
             </div>
             <div class="col-md-1">
             </div>
@@ -41,20 +39,24 @@
 
                 <div class="form-floating">
                     <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                        <option value="1">Nombre</option>
+                        <option value="0">Todos</option>
+                        <option value="3">Nombre</option>
                         <option value="2">Region</option>
-                        <option value="3">Seleccion</option>
+                        <option value="1">Seleccion</option>
                     </select>
                     <label for="floatingSelect">Tipo de busqueda:</label>
                 </div>
 
-                <button type="button" class="btn btn-primary" id="btnBuscar">Buscar</button>
+                <button type="button" class="btn btn-primary" id="btnBuscar" onclick="consultas()">Buscar</button>
+                <br>
+                <br>
                 <div id="cards"></div>
             </div>
         </div>
     </div>
+    <div id="cartas"></div>
 
 </body>
-<script src="JS/.Album_p.js"></script>
+<script src="JS/Album_p.js"></script>
 
 </html>
