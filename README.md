@@ -16,7 +16,7 @@ Usar los sigientes comandos:
     - cd Backend.
     - npm i.
     - npm run dev.
-![Consola en visual studio code](/imagenes/consola1.png)
+![Consola en visual studio code](https://github.com/LenStu/IPC12S2022-Proyecto2_202003886/blob/master/imagenes/consola_1.png)
 ![Servidor encendido](/imagenes/consola2.png)
 Puede usar la extencion de visual studio Live Serve para ejecutar directamente el html .
 
