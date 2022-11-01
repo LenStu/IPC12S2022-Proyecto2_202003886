@@ -17,20 +17,20 @@ Usar los sigientes comandos:
     - npm i.
     - npm run dev.
 ![Consola en visual studio code](https://github.com/LenStu/IPC12S2022-Proyecto2_202003886/blob/master/imagenes/consola_1.png)
-![Servidor encendido](/imagenes/consola2.png)
+![Servidor encendido](/imagenes/consola2.png)](https://github.com/LenStu/IPC12S2022-Proyecto2_202003886/blob/master/imagenes/consola_2.png)
 Puede usar la extencion de visual studio Live Serve para ejecutar directamente el html .
 
 - Inicio de sesion:
 Ingrese su usuario y contraseña para poder ingresar.
-![pagina de inicio](/imagenes/login1.png)
-![respuesta en caso de un dato erroneo](/imagenes/login2.png)
+![pagina de inicio](/imagenes/login1.png)](https://github.com/LenStu/IPC12S2022-Proyecto2_202003886/blob/master/imagenes/login_1.png)
+![respuesta en caso de un dato erroneo](/imagenes/login2.png)](https://github.com/LenStu/IPC12S2022-Proyecto2_202003886/blob/master/imagenes/login_2.png)
 
 - Home:
 Posee una pagina inicial en la que estaran todos los jugadores.
-![pagina de jugadores](/imagenes/buscador1.png)
+![pagina de jugadores](/imagenes/buscador1.png)](https://github.com/LenStu/IPC12S2022-Proyecto2_202003886/blob/master/imagenes/buscador_1.png)
 -Buscador:
 Puede escoger entre tres tipos diferente de busqueda y una opcion para mostrarlos todos nuevamente despuestas de presionar el boton.
-[pagina de jugadores](/imagenes/buscador2.png)
+[pagina de jugadores](/imagenes/buscador2.png)](https://github.com/LenStu/IPC12S2022-Proyecto2_202003886/blob/master/imagenes/buscador_2.png)
 
 ## Backend
 
