@@ -48,9 +48,13 @@ Puede escoger entre tres tipos diferente de busqueda y una opcion para mostrarlo
 ##### Descripcion de Endpoints:
 - Post /login
 Se le solicita a la api buscar en la carpeta de backend el archivo usuario.json es cual posee los usuarios verficados y son guardado en sus respetivas variables, posteriormente se toma una variable booleana de valor inciacia false.
+
 Se realiza un ciclo for pora recorrer el archivo .JSON y comprobar cada uno con el valor recibido desde el Frontend, en caso de tener una coincidencia se modificara la variable booleana y mandara dicha variable como respuesta.
+
 - Post /busqueda
 Se crea un archivo .JSON que posee los colores de cada seleccion que posteriormente sera utilizada como un complemento a la informacion de los jugadores.
 Se le solicita a la api buscar en la carpeta de backend el archivo jugador.json es cual posee el tipo de busqueda y el texto escrtito con sus respetivos parametros, posteriormente se toma una variable la cual sera un array para guardar informacion.
+
 Por medio de un ciclo if se toma el tipo de busqueda siendo estas por seleccion, region y nombre, se realiza un ciclo for para recorrer el archivo .JSON y combrobar si excite una coincidencia con los parametros ingresados en el Fronted, en caso de tener una coincidencia se modificara el array e ingresara todos los jugadores que correspondasn a la descripcion realizada e incorpora un color blanco por default.
+
 En el caso de realizar una busqueda por seleccion se realiza una sentencia if la cual modificara el color por default y cambiara segun el color escrito en el archivo JSON dentro de este endpont.
