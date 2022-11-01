@@ -30,7 +30,7 @@ Posee una pagina inicial en la que estaran todos los jugadores.
 ![pagina de jugadores](https://github.com/LenStu/IPC12S2022-Proyecto2_202003886/blob/master/imagenes/buscador_1.png)
 -Buscador:
 Puede escoger entre tres tipos diferente de busqueda y una opcion para mostrarlos todos nuevamente despuestas de presionar el boton.
-[pagina de jugadores](https://github.com/LenStu/IPC12S2022-Proyecto2_202003886/blob/master/imagenes/buscador_2.png)
+![pagina de jugadores](https://github.com/LenStu/IPC12S2022-Proyecto2_202003886/blob/master/imagenes/buscador_2.png)
 
 ## Backend
 
